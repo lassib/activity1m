@@ -61,7 +61,7 @@ const App = () => {
 
 export const Counter = ({ counter }) => (
   <div>
-    <p>{counter}</p>
+    <b><p style={{ color: "green" }}>{counter}</p></b>
   </div>
 )
 
